@@ -1,0 +1,91 @@
+.bg{
+  
+    height: 100vh;
+    position: relative;
+    background-image: url(Covidbg.png);
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    animation: animate 15s linear infinite;
+}
+@keyframes animate {
+    from {
+        background-position: 0 0 ;
+    }
+    to{
+        background-position: 100% 0;
+    }
+}
+.font{
+    font-family: 'Oswald', sans-serif;
+}
+
+#line{
+    border: 2px solid #ffc118;
+    box-shadow: 0px 4px 4px #ffc118;
+    width: 800px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+#head{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.display{
+    display: inline-block;
+}
+
+#contain{
+    flex-flow: column nowrap;
+}
+#Symtom_cotainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.box-clumn{
+    height: 600px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.box-mini{
+    width: 250px;
+    height: 50px;
+    background-color: #ffc118;
+    margin: 30px;
+    font-size: 35px;
+}
+
+.box-infectious{
+    margin-left: auto;
+    margin-right: 50px;
+    margin-bottom: 10%;
+    width: 700px;
+    height: 400px;
+    /* background-color: white; */
+    border: 3px solid #ffc118;
+    border-radius: 45px;
+    
+}
+#symptom_image{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 10%;
+    
+}
+.img{
+    width: 60px;
+    height: 60px;
+}
+

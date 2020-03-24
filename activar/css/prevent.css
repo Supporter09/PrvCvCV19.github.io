@@ -1,0 +1,91 @@
+.bg{
+    width: auto;
+    height: 750px;
+    background-color: #151515;
+    background-attachment: fixed;
+}
+
+.font{
+    font-family: 'Oswald', sans-serif;
+}
+
+#line{
+    border: 2px solid #ffc118;
+    box-shadow: 0px 4px 4px #ffc118;
+    width: 800px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+#head{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.prevent-contain{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Image Gallery */
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    width:200px;
+    height:200px;
+    border-radius: 15px;
+    background-size: cover;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+

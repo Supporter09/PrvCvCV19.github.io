@@ -1,0 +1,28 @@
+.bg{
+    width: auto;
+    height: 750px;
+    background-color: black;
+    background-attachment: fixed;
+}
+
+.font{
+    font-family: 'Oswald', sans-serif;
+}
+
+#line{
+    border: 2px solid #e72c2c;
+    box-shadow: 0px 4px 4px rgba(199, 33, 33, 0.582);
+    width: 800px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+#head{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}

@@ -1,0 +1,82 @@
+.bg{
+    width: auto;
+    height: 750px;
+    background-color: #151515;
+    background-attachment: fixed;
+}
+
+.font{
+    font-family: 'Oswald', sans-serif;
+}
+
+#line{
+    border: 2px solid #ffc118;
+    box-shadow: 0px 4px 4px #ffc118;
+    width: 800px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+}
+
+#head{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+#box-connect{
+    width: 1000px;
+    height: 600px;
+    /* background-color: white; */
+    border: 2px solid #ffc118;
+    border-radius:45px ;
+    
+}
+
+.display-flex2{
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    justify-content: center;
+}
+
+#call{
+    color: white;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+
+#phone{
+    color: tomato;
+    text-align: center;
+    margin-top: 1px;
+}
+
+#slash{
+    color: white;
+    margin-top: 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.display-block {
+    display: inline-block;
+    width: auto;
+    margin-left:150px;
+    margin-top: 40px;
+}
+.display-block img{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.display-inline{
+    display: inline;
+}
