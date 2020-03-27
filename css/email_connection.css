@@ -1,0 +1,67 @@
+
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+.feedback_h3 {
+text-align:center;
+font-family:'Raleway',sans-serif;
+color:#151515
+}
+h2 {
+font-family:'Raleway',sans-serif
+}
+input {
+    width: 46%;
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 30px;
+    box-shadow: 1px 1px 12px grey;
+    border-radius: 3px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea {
+    width: 60%;
+    height: 120px;
+    margin-top: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 12px grey;
+    border-radius: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#send {
+    width: 40%;
+    height: 45px;
+    margin-top: 40px;
+    border-radius: 3px;
+    /* background-color: #cd853f; */
+    background: linear-gradient(90deg, #232526 0%, #414345 100%);
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
+}
+div#feedback {
+    text-align: center;
+    height: 520px;
+    width: 100%;
+    padding: 20px 25px 20px 15px;
+    /* background-color: #f3f3f3; */
+    background: linear-gradient(90deg, #F46B45 0%, #EEA849 100%);
+    /* transform: rotate(-180deg); */
+    border-radius: 3px;
+    border: 1px solid #cd853f;
+    font-family: 'Raleway',sans-serif;
+    float: left;
+}
+.feedback_container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+height: 520px;
+margin:40px auto
+}

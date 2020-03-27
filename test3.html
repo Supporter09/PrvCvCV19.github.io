@@ -9,6 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thông tin</title>
 
+
+    <link rel="shortcut icon" href="img/logo_web.png" />
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -23,6 +25,7 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/test.css" type="text/css">
+    <link rel="stylesheet" href="./css/quiz.css" type="text/css">
 </head>
 
 <body>
@@ -31,38 +34,37 @@
         <div class="loader"></div>
     </div>
 
-<!-- Header Section Begin -->
-<header class="header-section header-normal">
-    <div class="container-fluid">
-        <div class="logo">
-            <a href="./index.html">
-                <img src="img/LOGO_1.png" alt="">
-            </a>
-        </div>
-        <div class="top-social">
-            <a href="#"><i class="fa fa-pinterest-p"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-pinterest-p"></i></a>
-            <a href="#"><i class="fa fa-youtube-play"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-        </div>
-        <div class="container">
-            <div class="nav-menu">
-                <nav class="mainmenu mobile-menu">
-                    <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./thông tin.html">Thông tin</a></li>
-                        <li><a href="./triệu chứng.html">Triệu chứng</a></li>
-                        <li><a href="./phòng chống.html">Phòng chống</a></li>
-                        <li class="active"><a href="./product.html">Sản phẩm</a>
-                    </ul>
-                </nav>
+    <!-- Header Section Begin -->
+    <header class="header-section header-normal">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="img/LOGO_1.png" alt="">
+                </a>
             </div>
+            <div class="top-social">
+                <a href="https://www.facebook.com/Noobcoder012/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.facebook.com/jack.andrea.54/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.facebook.com/nghianguyen992004/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100014527922284"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="container">
+                <div class="nav-menu">
+                    <nav class="mainmenu mobile-menu">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./thông tin.html">Thông tin</a></li>
+                            <li><a href="./triệu chứng.html">Triệu chứng</a></li>
+                            <li><a href="./phòng chống.html">Phòng chống</a></li>
+                            <li class="active"><a href="./product.html">Sản phẩm</a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
         </div>
-        <div id="mobile-menu-wrap"></div>
-    </div>
-</header>
-<!-- Header End -->
+    </header>
+    <!-- Header End -->
 
     <!-- Aboutus Section Begin -->
     <section class="aboutus-section spad">
@@ -78,6 +80,19 @@
                     </div>
                 </div>
                 <div class="slide1">
+                    <div class="quiz-container">
+                        <div id="quiz">
+                        </div>
+                        <button id="previous" style="margin-top:26%">Previous Question</button>
+                        <button id="next" style="margin-top:26%">Next Question</button>
+                        <button id="submit" style="margin-top:26%">Submit Quiz</button>
+                    </div>
+
+                    <div id="results" style="margin-top:20%"></div>
+                </div>
+
+
+                <!-- <div class="slide1">
                     <div>
                         <div class="quest">
                             <br>
@@ -184,7 +199,7 @@
                         <br>
                         <button class="questbtn wrong">B. Ít nhất 1m</button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -264,18 +279,18 @@
                     <div class="footer-logo-item">
                         <div class="f-logo">
                             <!-- LOGO -->
-                            <a href="#"><img src="./img/LOGO_1.png" alt=""></a>
+                            <a href="index.html"><img src="img/LOGO_2.png" alt=""></a>
                             <!-- LOGO -->
                         </div>
                         <p>Chúng tôi xin cam kết sẽ đem lại những thông tin chính xác nhất và được cập nhật liên tục về
                             dịch bệnh SARS-COV-2 trên Việt Nam và toàn thế giới.</p>
                         <div class="social-links">
                             <h6>Follow us</h6>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/Noobcoder012/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/jack.andrea.54/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/nghianguyen992004/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100014527922284"><i
+                                    class="fa fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
@@ -283,22 +298,22 @@
                     <div class="footer-widget">
                         <h5>Các bài viết</h5>
                         <div class="footer-blog">
-                            <a href="#" class="fb-item">
+                            <a href="phòng chống.html" class="fb-item">
                                 <h6>Cách hiệu quả phòng chống bệnh</h6>
                                 <span class="blog-time"><i class="fa fa-clock-o"></i> Thứ 5,ngày 19,2020</span>
                             </a>
-                            <a href="#" class="fb-item">
+                            <a href="phòng chống.html" class="fb-item">
                                 <h6>Làm sao để tránh bị ốm?</h6>
                                 <span class="blog-time"><i class="fa fa-clock-o"></i> Thứ 5,ngày 19,2020</span>
                             </a>
-                            <a href="#" class="fb-item">
+                            <a href="phòng chống.html" class="fb-item">
                                 <h6>Làm sao để vượt qua stress ? </h6>
                                 <span class="blog-time"><i class="fa fa-clock-o"></i> Thứ 5,ngày 19,2020</span>
                             </a>
                         </div>
                     </div>
                 </div>
-               
+
                 <div class="col-lg-3">
                     <div class="footer-widget">
                         <h5>Liên hệ:</h5>
@@ -306,24 +321,24 @@
                             <li>
                                 <i class="fa fa-phone"></i>
                                 <span>Số điện thoại:</span>
-                                038.642.5197
+                                0386142616
                             </li>
                             <li>
                                 <i class="fa fa-envelope-o"></i>
                                 <span>Email:</span>
-                                preventcovid_19@gmail.com
+                                PrvCv19@gmai.com
                             </li>
                             <li>
                                 <i class="fa fa-map-marker"></i>
                                 <span>Địa chỉ:</span>
-                                Số 1, Đê La Thành, Hà Nội
+                                Tầng 2,29T1, Hoàng Đạo Thúy, Hà Nội
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        
+
     </footer>
     <!-- Footer Section End -->
 
@@ -338,6 +353,7 @@
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/test.js"></script>
+    <script src="./js/quiz3.js"></script>
 </body>
 
 </html>
