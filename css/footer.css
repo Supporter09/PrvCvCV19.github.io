@@ -1,0 +1,124 @@
+/*---------------------
+  Footer Section
+-----------------------*/
+
+.footer-section {
+	background: #151515;
+	padding-top: 72px;
+}
+
+.footer-logo-item {
+	margin-bottom: 30px;
+}
+
+.footer-logo-item .f-logo {
+	margin-bottom: 40px;
+}
+
+.footer-logo-item .f-logo a {
+	display: inline-block;
+}
+
+.footer-logo-item p {
+	color: #afb4bf;
+	margin-bottom: 32px;
+}
+
+.footer-logo-item .social-links h6 {
+	color: #ffffff;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.footer-logo-item .social-links a {
+	color: #ffffff;
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 32px;
+}
+
+.footer-logo-item .social-links a:last-child {
+	margin-right: 0;
+}
+
+.footer-widget {
+	margin-bottom: 30px;
+}
+
+.footer-widget h5 {
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.footer-widget .footer-blog .fb-item {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.footer-widget .footer-blog .fb-item:hover h6 {
+	color: #e4381C;
+}
+
+.footer-widget .footer-blog .fb-item h6 {
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.footer-widget .footer-blog .fb-item span {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 500;
+	display: block;
+	color: #afb4bf;
+}
+
+.footer-widget .footer-blog .fb-item span i {
+	color: #e4381C;
+	margin-right: 5px;
+}
+
+.footer-widget .workout-program li {
+	list-style: none;
+}
+
+.footer-widget .workout-program li a {
+	display: block;
+	font-size: 16px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	color: #ffffff;
+	line-height: 18px;
+	margin-bottom: 22px;
+}
+
+.footer-widget .footer-info li {
+	list-style: none;
+	font-size: 16px;
+	color: #afb4bf;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 20px;
+}
+
+.footer-widget .footer-info li i {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 24px;
+	color: #e4381C;
+}
+
+.footer-widget .footer-info li span {
+	color: #ffffff;
+	display: block;
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+}
